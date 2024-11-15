@@ -1,5 +1,5 @@
 main{
-    /* background-color: aquamarine; */
+    background-color: #f1f1f0;
     padding: 1.2em;
 }
 .main-title{
@@ -68,4 +68,142 @@ main{
 }
 .genderImg{
     width: 100%;
+}
+/* .new-arrivals{
+    padding: 1.2em;
+} */
+.new-arrivals>span{
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+.collection{
+    padding: 1.2em 0em;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    place-items: center;
+    gap: 1em;
+}
+.collection-section-1, .collection-section-2{
+    width: 40vw;
+}
+.collectionImage{
+    width: 100%;
+    height: 100%;
+}
+
+.collection-section-2{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 1em;
+}
+/* .animation{
+    background-image: url('https://themewagon.github.io/kaira/images/text-pattern.png');
+    background-size: cover;
+    height: 100vh;
+} */
+
+.blogs-section{
+    padding: 1.2em;
+    display: flex;
+    flex-direction: column;
+}
+.title{
+    padding: 1em 0em;
+    display: flex;
+    justify-content: space-between;
+}
+
+.articles{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 10px;
+}
+.article-1{
+    width: 28vw;
+    height: 60vh;
+}
+.article-1>img{
+    height: 50%;
+    width: 100%;
+}
+.articleData{
+    display: flex;
+    flex-direction: column;
+}
+.articleDate{
+    font-size: 1em;
+}
+.articleDescri{
+    font-size: 1.5em;
+    padding: 0.8em 0em;
+}
+.viewAll{
+    font-size: 1em;
+    font-weight: 100;
+    text-decoration: underline;
+}
+
+.logoSection{
+    margin: 1.2em 0em;
+    padding: 1.2em 0em;
+    display: flex;
+    justify-content: space-between;
+}
+.logoImage{
+    width: 15vw;
+    height: 80px;
+}
+
+.letters{
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+    position: relative;
+}
+.letters-top-section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.lettersImgs{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100vw;
+}
+.lettersImage{
+    height: 30vh;
+    width: 15%;
+}
+.follow{
+    background-color: black;
+    color: #fff;
+    font-size: 1em;
+    padding: 10px 20px;
+    width: fit-content;
+    border-radius: 6px;
+    position: absolute;
+    left: 40%;
+    bottom: -20px;
+}
+
+.letters-top-section{
+    padding: 10% 0%;
+}
+.letterTitle{
+    font-size: 3em;
+    margin: 20px 0px;
+}
+input[type='text']{
+    width: 50vw;
+    height: 50px;
+    margin-bottom: 20px;
+}
+.button{
+    background-color: black;
+    color: #fff;
+    width: 50vw;
+    padding: 10px;
 }

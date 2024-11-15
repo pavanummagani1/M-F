@@ -3,8 +3,11 @@
     padding: 0px;
     box-sizing: border-box;
 }
+body{
+    font-family: Marcellus, Roboto, sans-serif;
+}
 header{
-background-color: aquamarine;
+background-color: #f1f1f0;
 display: flex;
 justify-content: space-around;
 align-items: center;
