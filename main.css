@@ -211,6 +211,9 @@ input[type='text']{
 
 
 @media screen and (max-width:650px){
+    body{
+        overflow-x: hidden;
+    }
     .details{
         display: flex;
         flex-direction: column;

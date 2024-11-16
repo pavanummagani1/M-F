@@ -5,7 +5,7 @@
 }
 body{
     font-family: Marcellus, Roboto, sans-serif;
-    overflow: hidden;
+    overflow-x: hidden;
 }
 header{
 background-color: #f1f1f0;
