@@ -1,5 +1,5 @@
 footer{
-    margin-top: 20px;
+    /* margin-top: 20px; */
     display: flex;
     flex-direction: column;
     background-color: cornflowerblue;
@@ -58,8 +58,8 @@ footer{
         width: 100vw;
         justify-content: center;
     }
-    .fsection{
-        width: 50vw;
+    .fsection>span:not(.title1){
+        width: 60vw;
     }
 
 }

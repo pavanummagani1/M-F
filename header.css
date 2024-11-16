@@ -48,14 +48,17 @@ input[type='checkbox']{
 }
 #home:checked+.home{
     display: flex;
+    z-index: 1;
 }
 #shop:checked+.shop{
     display: flex;
     left: 35%;
+    z-index:1;
 } 
 #pages:checked+.pages{
     display: flex;
     left: 40%;
+    z-index: 1;
 }
 .hamburger{
     display: none;
