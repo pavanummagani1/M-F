@@ -233,6 +233,10 @@ input[type='text']{
     #itemSection1,#itemSection3, #itemSection5{
         display: none;
     }
+    .itemImage{
+        height: 400px;
+        width: 300px;
+    }
     .gender-selection{
         display: flex;
         flex-direction: column;
